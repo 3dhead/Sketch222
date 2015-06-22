@@ -1,7 +1,7 @@
 # Sketch
-Art class web application that produces reference photos to sketch in a limited amount of time. Still WIP
+Art class web application that produces reference photos to sketch in a limited amount of time. Still WIP, first project in JavaScript.
 
-Much like Pixelovely's application ( artists.pixelovely.com/practice-tools/figure-drawing/ ) with a few feature changes.
+Much like Pixelovely's application ( artists.pixelovely.com/practice-tools/figure-drawing/ ) with a few feature changes. 
 
 (Planned) Features:
 -> A timer that can be visible/invisible. 
