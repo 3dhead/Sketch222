@@ -2,16 +2,34 @@
     <head>
         <title>Sketch</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="gesturescript.js"></script>
     </head>
     
     <body>
-        <script src="gesturescript.js"></script>
         <div id='timer'>
         </div>
-        
-        <button onclick="classtime();">Start</button>
-        <center>
-            <img id="img" src="">
-        </center>
+        <table id="startTable">
+            <tr>
+                <td><input type="radio" name="classTime" value="15" checked="true" ></td>
+                <td>15 Minute Class</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="classTime" value="30"></td>
+                <td>30 Minute Class</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="classTime" value="60"></td>
+                <td>60 Minute Class</td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <button onclick="start();">Start</button>
+                </td>
+            </tr>
+        </table>
+
+        <div id="imageDiv">
+            <img id="classImage" src="">
+        </div>
     </body>
 </html>

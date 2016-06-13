@@ -1,5 +1,9 @@
-body 
-{
+body {
     background-color: #000000;
     color:#FFFFFF;
+}
+
+#imageDiv {
+    margin-left: auto;
+    margin-right: auto;
 }
